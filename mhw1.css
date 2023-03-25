@@ -1,0 +1,160 @@
+html{
+    font-size: 30px;
+}
+
+body{
+    margin:0px;
+    font-family: 'Nunito', Helvetica;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:60px;
+    background-color: black;
+    color: white;
+    height: 100px;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(197, 217, 209, 0.592);
+    height: 60px;
+}
+
+a{
+   background-color: rgba(239, 170, 118, 0.944);
+   border-radius: 15px; 
+   color: rgb(255, 255, 255);
+   font-size: 0.6rem;
+   padding: 10px 15px;
+   text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(239, 170, 118, 0.673);
+    color:black;
+}
+
+h1{
+    width: 780px;
+    color: white;
+    text-align: center;
+    font-family: 'Lilita One', Helvetica;
+    font-size: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -2;
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#profilo{
+    text-align: center;
+    line-height: 140%;
+    margin-bottom: 12px;
+    font-size: 0.6rem;
+}
+
+#profilo img{
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 2px solid lightgray;
+}
+
+#profilo em{
+   border-bottom: 2px solid lightgrey;
+   padding-bottom: 10px;
+}
+
+.indice{
+    font-size: 1.3rem;
+    color: lightgrey;
+    margin-right:40px;
+    font-family: "Lucida";
+}
+
+.blocco{
+    margin: 0px;
+    width: 66.67%;
+}
+
+h2{
+    font-size: 1.3rem;
+    font-family: "Lucida";
+    margin-top:0px;
+}
+
+h3{
+    font-size: .7rem;
+    color: rgba(239, 170, 118, 0.944);
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 190%;
+    font-size: .7rem;
+}
+
+section img{
+    height: 100%;
+    width: 100%;
+    margin-bottom:60px;
+}
+
+@media (max-width: 500px) {
+
+    header {
+      height: 300px;
+    }
+
+    footer{
+        height: 50px;
+    }
+
+    html{
+        font-size: 20px;
+    }
+
+    .blocco{
+        width: 80%;
+    }
+
+  }
